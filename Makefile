@@ -20,5 +20,5 @@ all:$(OBJ_LIB)
 	$(CC) $(CFLAGS) -c  -o $@ $<
 	
 clean:
-	rm -f $(TARTGET) *.o lib/*.o
+	rm -f $(TARGET) *.o lib/*.o
 
